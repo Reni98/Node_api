@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Új lovas tag felvétele</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Lovas hozzáadása</title>
+      </head>
+      <body>
+        <h2>Movies Information</h2>
+        <form action="" method="post">
+          <table>
+            <tr>
+              <td>Név</td>
+              <td><input type="text" id="name" name="name" /></td>
+            </tr>
+            <tr>
+              <td>Kor</td>
+              <td><input type="number" id="age" name="age" /></td>
+            </tr>
+            <tr>
+              <td>Telefonszám</td>
+              <td><input type="text" id="phone" name="phone" /></td>
+            </tr>
+            <tr>
+              <td>E-mail</td>
+              <td><input type="email" id="email" name="email" /></td>
+            </tr>
+            <tr>
+              <td>
+                <button
+                  onclick="sendPost()"
+                  id="sub"
+                  type="submit"
+                  value="Submit"
+                >
+                  Elfogad
+                </button>
+              </td>
+            </tr>
+          </table>
+        </form>
+        <script src="add.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
